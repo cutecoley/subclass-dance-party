@@ -24,8 +24,8 @@ body, a:link, a:visited, a:active{
 }
 .blinkyDancer{
   background: yellow;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   text-align: center;
   -webkit-transform: rotate(20deg);
@@ -38,56 +38,32 @@ body, a:link, a:visited, a:active{
     position: absolute;
     top: 0;
     left: 0;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     background: red;
     -webkit-transform: rotate(135deg);
        -moz-transform: rotate(135deg);
         -ms-transform: rotate(135deg);
          -o-transform: rotate(135deg);
 }
+.blinkyDancer:hover {
+   transform: rotate(180deg);
+}
 .dancer1 {
-  box-shadow:
-    0 0 0 1em blue,
-    0 1em 0 1em blue,
-    -2.5em 1.5em 0 .5em blue,
-    2.5em 1.5em 0 .5em blue,
-    -3em -3em 0 0 blue,
-    3em -3em 0 0 blue,
-    -2em -2em 0 0 blue,
-    2em -2em 0 0 blue,
-    -3em -1em 0 0 blue,
-    -2em -1em 0 0 blue,
-    2em -1em 0 0 blue,
-    3em -1em 0 0 blue,
-    -4em 0 0 0 blue,
-    -3em 0 0 0 blue,
-    3em 0 0 0 blue,
-    4em 0 0 0 blue,
-    -5em 1em 0 0 blue,
-    -4em 1em 0 0 blue,
-    4em 1em 0 0 blue,
-    5em 1em 0 0 blue,
-    -5em 2em 0 0 blue,
-    5em 2em 0 0 blue,
-    -5em 3em 0 0 blue,
-    -3em 3em 0 0 blue,
-    3em 3em 0 0 blue,
-    5em 3em 0 0 blue,
-    -2em 4em 0 0 blue,
-    -1em 4em 0 0 blue,
-    1em 4em 0 0 blue,
-    2em 4em 0 0 blue;
-
-    background: blue;
-    width: 1em;
-    height: 1em;
-    overflow: hidden;
+    background-image: url("https://media.giphy.com/media/Luhluchykcec0/giphy.gif");
+    height: 22%;
+    width: 10%;
     position: absolute;
   }
+.dancer1:hover {
+   transform: rotate(180deg);
+}
 .dancer2 {
-  background-image: url("https://cdn0.iconfinder.com/data/icons/dance-fitness/72/11-128.png");
-  height: 10%;
-  width: 5%;
+  background-image: url("https://media.giphy.com/media/BetLyuCzghyww/giphy.gif");
+  height: 27%;
+  width: 14%;
   position: absolute;
+}
+.dancer2:hover {
+   transform: rotate(180deg);
 }
