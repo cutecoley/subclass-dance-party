@@ -1,6 +1,6 @@
 
 var MakeDancer = function(top, left, timeBetweenSteps) {
-  this.$node = $('<span class="blinkyDancer"></span>');
+  this.$node = $('<span class="blinkyDancer lineUpDancer"></span>');
   this.time = timeBetweenSteps;
   this.step();
   this.setPosition(top, left);

@@ -7,7 +7,7 @@ Dancer2.prototype.constructor = Dancer2;
 
 Dancer2.prototype.step = function() {
   MakeDancer.prototype.step.call(this);
-  this.$node = $('<span class="dancer2"></span>');
+  this.$node = $('<span class="dancer2 lineUpDancer"></span>');
     // call the old version of step at the beginning of any call to this new version of step
   this.$node.toggle();
 };
