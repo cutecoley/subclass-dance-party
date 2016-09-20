@@ -36,6 +36,16 @@ $(document).ready(function() {
       // $('.addDancerButton').css
       $('.lineUpDancer').animate({left : 0})
     }
-  })
+  });
+
+  $('.goCrazyOn').on('click', function(event) {
+      var left = function() {
+        $('.lineUpDancer').animate({left: "-=500"}, 2000, "swing", right);
+      };
+      var right = function() {
+        $('.lineUpDancer').animate({left: "+=500"}, 2000, "swing", left)
+      };
+      right();
+  });   
 });
 
