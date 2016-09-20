@@ -38,7 +38,7 @@ $(document).ready(function() {
     }
   });
 
-  $('.goCrazyOn').on('click', function(event) {
+  $('.goCrazy').on('click', function(event) {
       var left = function() {
         $('.lineUpDancer').animate({left: "-=500"}, 2000, "swing", right);
       };

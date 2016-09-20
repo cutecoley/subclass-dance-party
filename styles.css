@@ -11,7 +11,7 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton, .lineUp{
+.title, .addDancerButton, .lineUp, .goCrazy{
   padding:5px 12px;
   float:right;
 }
@@ -56,7 +56,8 @@ body, a:link, a:visited, a:active{
     position: absolute;
   }
 .dancer1:hover {
-   transform: rotate(180deg);
+   transform: scaleX(3);
+   transform: scaleY(2);
 }
 .dancer2 {
   background-image: url("https://media.giphy.com/media/BetLyuCzghyww/giphy.gif");
@@ -65,5 +66,5 @@ body, a:link, a:visited, a:active{
   position: absolute;
 }
 .dancer2:hover {
-   transform: rotate(180deg);
+   transform: scaleX(3);
 }
