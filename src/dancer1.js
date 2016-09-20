@@ -9,5 +9,6 @@ Dancer1.prototype.step = function() {
   MakeDancer.prototype.step.call(this);
     // call the old version of step at the beginning of any call to this new version of step
   this.$node = $('<span class="dancer1"></span>');
+  console.log("node", this.$node)
   this.$node.toggle();
 };
