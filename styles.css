@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-image: url("http://all4desktop.com/data_images/original/4238051-background.jpg");
+  background-image: url("https://media.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif");
   background-size: 1920px 1080px;
   background-repeat: no-repeat;
   font-size: 18px;
@@ -11,7 +11,7 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineUp{
   padding:5px 12px;
   float:right;
 }
