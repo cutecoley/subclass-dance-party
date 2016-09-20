@@ -45,8 +45,6 @@ MakeDancer.prototype.step = function() {
   }, this.time);
 };
 
-//MakeDancer.prototype.step();
-
 MakeDancer.prototype.setPosition = function(top, left) {
   var styleSettings = {
     top: top,
@@ -56,5 +54,4 @@ MakeDancer.prototype.setPosition = function(top, left) {
   this.$node.css(styleSettings);
   
 };
-//MakeDancer.prototype.setPosition(this.top, this.left);
 

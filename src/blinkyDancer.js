@@ -20,7 +20,6 @@
 
 var MakeBlinkyDancer = function(top, left, timeBetweenSteps) {
   MakeDancer.call(this, top, left, timeBetweenSteps);
-  this.time = timeBetweenSteps;
 };
 
 MakeBlinkyDancer.prototype = Object.create(MakeDancer.prototype);
@@ -29,6 +28,5 @@ MakeBlinkyDancer.prototype.constructor = MakeBlinkyDancer;
 MakeBlinkyDancer.prototype.step = function() {
   MakeDancer.prototype.step.call(this);
     // call the old version of step at the beginning of any call to this new version of step
-  console.log("this.$node", this.$node)
   this.$node.toggle();
 };
