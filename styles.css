@@ -3,7 +3,9 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url("http://all4desktop.com/data_images/original/4238051-background.jpg");
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -20,8 +22,19 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
-  border:10px solid red;
+.blinkyDancer{
+  border:10px solid yellow;
   border-radius:10px;
-  position:absolute;
+  position: absolute;
+}
+.dancer1 {
+  border:10px solid blue;
+  border-radius:10px;
+  position: absolute;
+}
+.dancer2 {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/dance-fitness/72/11-128.png");
+  height: 10%;
+  width: 5%;
+  position: absolute;
 }
